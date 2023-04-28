@@ -1,7 +1,7 @@
-export default function fornecedores () {
+export default function home () {
     return (
     <div>
-        <h1>Fornecedores</h1>
+        <h1>Receitas</h1>
     </div>    
     )
 }
