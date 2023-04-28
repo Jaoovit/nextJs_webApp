@@ -1,8 +1,9 @@
+import Link from 'next/link'
 export default function cabecalho(props) {
     return (
         <header>
             <h1>{props.titulo}</h1>
-            <a href="/">Voltar</a>
+            <Link href="/">Voltar</Link>
         </header>
     )
 }
