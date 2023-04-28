@@ -1,5 +1,9 @@
-export default function recipe_2(){
+import Cabecalho from "../components/Cabecalho"
+
+export default function recipe_2() {
     return(
-        <h1>Bechamel</h1>
+    <>
+        <Cabecalho titulo="Molho bechamel" />
+    </>
     )
 }

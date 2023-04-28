@@ -1,7 +1,7 @@
-export default function cabecalho() {
+export default function cabecalho(props) {
     return (
         <header>
-            <h1>Receitas</h1>
+            <h1>{props.titulo}</h1>
             <a href="/">Voltar</a>
         </header>
     )

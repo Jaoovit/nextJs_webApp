@@ -1,5 +1,9 @@
+import Cabecalho from "../components/Cabecalho"
+
 export default function recipe_3(){
     return(
-        <h1>Pesto</h1>
+    <>
+    <Cabecalho titulo="Molho pesto"/>
+    </>
     )
 }
